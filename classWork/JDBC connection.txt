@@ -1,0 +1,13 @@
+#Steps to connect with the Database
+1.Add the MySql Connector jar as a external jar in the build path
+2.Create the Constants for URL,USERNAME,PASSWORD for the database to be connected with
+3.Use the DriverManager class to get the connection by passing the url,username and password
+4.Once the connection object is fetched start executing the queries
+5.after execution do nt forgrt to close the connection
+
+#Steps to execute the Query
+1.Write An SQL Query In the form of String
+2.Get Connection Object
+3.Using the Connection Object create object of PreparedStatement by passing ths string sql query
+4.Use the preparedstatement object to execute the query
+
